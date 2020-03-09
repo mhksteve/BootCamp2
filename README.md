@@ -8,10 +8,11 @@ README.md
 
 Numpy is A Python Library for dealing with numberical useful python package.
 
-Use the package manager [numpy](https://pip.pypa.io/en/stable) to install numpy package.[Google](google.com)
-Press Facebook
+Use the package manager
+
+[Google](google.com)
+
 [Facebook](www.facebook.com)
-[]()
 
 ```bash
 pip install numpy
@@ -26,12 +27,12 @@ numpy.pluralized('goose') #returns 'geese'
 numpy.pluralized('phenomena') #returns 'phenomenon'
 ```
 
+![Google](https://i-cdn.phonearena.com/images/articles/281036-image/google-guetzli-jpeg.jpg)
+![alt text]()
+![alt_sloth](https://image.shutterstock.com/image-photo/sloths-rescue-centre-costa-rica-260nw-692538712.jpg)
 
-![alt text]
-![alt_sloth]
 
-
-##Contributing
+## Contributing
 
 ```
 Pull Request are Welcome.For Major Changes, Please open an issue first to discuss what you would like to change.
@@ -64,10 +65,10 @@ Please make sure to update tests as appropirate.
 ```
 
 ```diff
--text
-+word
-!character
-#string
+-Apple
++Banana
+!Car
+#rope
 ```
 
 [MIT](https://choosealicense.com/licenses/mit/)
