@@ -39,7 +39,7 @@ isJump = False
 jumpCount = 10
 left = False
 right =False
-walkCount = 10
+walkCount = 0
 
 def redrawGameWindow():
 	global walkCount
@@ -53,6 +53,7 @@ def redrawGameWindow():
 		walkCount += 1
 	elif right:
 		win.blit(walkRight[walkCount//3],(x,y))
+		walkCount += 1
 	else:
 		win.blit(char,(x,y))
 
@@ -70,7 +71,7 @@ while run:
 
 	if keys[pygame.K_LEFT] and x > vel:
 		x -= vel
-		leeft = True
+		left = True
 		right = False
 	elif keys[pygame.K_RIGHT] and x < 800 - width -vel:
 		x += vel
